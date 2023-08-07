@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-  * _atoi - Prints the multiplication of two args numbers
+  * _atoi - converts a string
   * @s: converted string
   *
   * Return: interger
