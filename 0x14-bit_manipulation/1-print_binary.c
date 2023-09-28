@@ -11,9 +11,9 @@ void print_binary(unsigned long int n)
 	int x, count = 0;
 	unsigned long int current;
 
-	for (i = 63; i >= 0; i--)
+	for (x = 63; x >= 0; x--)
 	{
-		current = n >> i;
+		current = n >> x;
 
 		if (current & 1)
 		{
